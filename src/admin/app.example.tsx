@@ -27,9 +27,6 @@ export default {
       // 'vi',
       // 'zh-Hans',
       // 'zh',
-      // 'test',
-      // 'test1',
-      // 'test2',
     ],
   },
   bootstrap(app) {
