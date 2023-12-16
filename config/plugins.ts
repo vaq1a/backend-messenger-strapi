@@ -8,7 +8,7 @@ export default ({ env }) => ({
         enabled: true,
         config: {
             IOServerOptions: {
-                cors: { origin: "http://localhost:3000", methods: ["GET", "POST"] },
+                cors: { origin: env('SOCKET_HOST'), methods: ["GET", "POST"] },
             },
             contentTypes: {
                 message: "*",
